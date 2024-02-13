@@ -50,3 +50,8 @@ result = getDevObject("Corey Wishes", ...skills);
 console.log(result)
 
 
+
+let nums = [[1, 2], [3, 4], [5, 6, 7]];
+let prod = 1;
+nums.flat().map(function(value) {prod *= value})
+
